@@ -1,4 +1,2 @@
-console.log(false === '0');
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const results = await Promise.all(resultingPromises);
-const isTabInView = () => !document.hidden;
+console.log(1 +  -"1" + "2");
+const isWeekday = (date) => date.getDay() % 6 !== 0;
