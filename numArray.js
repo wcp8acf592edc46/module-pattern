@@ -1,5 +1,3 @@
-console.log(false == '0');
-const channelName = getChannelName(channel);
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const reversedString = str => str.split('').reverse().join('');
-const flattenedArray = arr => [].concat(...arr);
+var arr1 = "john".split('');
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+[foo, bar] = [bar, foo];
