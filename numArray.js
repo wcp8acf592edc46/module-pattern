@@ -1,3 +1,2 @@
-var arr1 = "john".split('');
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-[foo, bar] = [bar, foo];
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+var arr2 = arr1.reverse();
