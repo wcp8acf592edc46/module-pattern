@@ -1,1 +1,1 @@
-console.log(1 +  +"2" + "2");
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
