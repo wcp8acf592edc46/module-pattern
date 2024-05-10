@@ -1,2 +1,3 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const channel = getChannel(computedAppVersion);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const isTabInView = () => !document.hidden;
