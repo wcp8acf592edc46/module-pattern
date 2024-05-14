@@ -1,3 +1,2 @@
-const channel = getChannel(computedAppVersion);
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const isTabInView = () => !document.hidden;
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+var c = new Counter(); c.add(); c.add(); c.add();
