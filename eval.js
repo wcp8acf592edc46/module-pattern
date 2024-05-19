@@ -1,2 +1,3 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-var arr2 = arr1.reverse();
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+var arr1 = "john".split('');
