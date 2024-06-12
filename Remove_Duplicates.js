@@ -1,2 +1,1 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const results = await Promise.all(resultingPromises);
+console.log("1 && 2 = "+(1 && 2));
