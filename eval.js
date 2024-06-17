@@ -1,3 +1,3 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const maxNumber = arr => Math.max(...arr);
+console.log("1 || 2 = "+(1 || 2));
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+console.log(1 +  +"2" + "2");
