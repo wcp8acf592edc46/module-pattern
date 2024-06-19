@@ -1,1 +1,3 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+console.log(1 +  "2" + "2");
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
