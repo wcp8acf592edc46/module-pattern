@@ -1,3 +1,1 @@
-const result = await makeHttpRequest(url);
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const results = await Promise.all(resultingPromises);
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
