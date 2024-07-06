@@ -1,1 +1,3 @@
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const channel = getChannel(computedAppVersion);
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const updated = numbers.filter(element => element > 6);
