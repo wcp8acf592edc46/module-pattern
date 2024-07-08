@@ -1,1 +1,1 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
