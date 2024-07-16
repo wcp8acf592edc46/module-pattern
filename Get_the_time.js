@@ -1,3 +1,3 @@
-console.log("1 && 2 = "+(1 && 2));
-var arr3 = "jones".split('');
-const results = await Promise.all(resultingPromises);
+const uniqueArray = arr => [...new Set(arr)];
+const merge = (a, b) => a.concat(b);
+const merge = [...new Set(a.concat(b))];
