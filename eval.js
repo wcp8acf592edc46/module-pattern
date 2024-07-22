@@ -1,3 +1,1 @@
-const fullName = name || 'buddy';
-const result = await makeHttpRequest(url);
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
