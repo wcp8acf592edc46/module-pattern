@@ -1,2 +1,2 @@
-console.log(1 +  "2" + "2");
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const result = await makeHttpRequest(url);
