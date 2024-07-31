@@ -1,2 +1,3 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const result = await makeHttpRequest(url);
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const toggleBool = () => (bool = !bool);
+console.log("1 && 2 = "+(1 && 2));
