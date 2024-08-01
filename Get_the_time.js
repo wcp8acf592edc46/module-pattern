@@ -1,2 +1,3 @@
-console.log("0 && 1 = "+(0 && 1));
-var arr3 = "jones".split('');
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
