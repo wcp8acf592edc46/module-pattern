@@ -1,3 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const merge = [...new Set(a.concat(b))];
-const isEven = (num) => num % 2 === 0;
+console.log(1 +  "2" + "2");
+const repositoryRootPath = path.resolve(__dirname, '..');
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
